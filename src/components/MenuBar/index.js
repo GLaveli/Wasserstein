@@ -1,18 +1,18 @@
 function MenuBar() {
  return (
   <>
-   <div class="wrapper row1">
-    <div class="hoc clear">
+   <div className="wrapper row1">
+    <div className="hoc clear">
      <nav id="mainav">
-      <ul class="clear">
+      <ul className="clear">
        <li>
-        <a href="index.html">Pagina inicial</a>
+        <a href="/">Pagina inicial</a>
        </li>
        <li>
-        <a href="#">Sobre</a>
+        <a href="/about">Sobre</a>
        </li>
        <li>
-        <a class="drop" href="#">Especialidades</a>
+        <a className="drop" href="#">Especialidades</a>
         <ul>
          <li>
           <a href="pages/gallery.html">Fisiatria</a>
@@ -44,3 +44,6 @@ function MenuBar() {
 
 
 export default MenuBar;
+
+
+
