@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 //Pages ----------------------------------------------------------------------------------
 import Home from './pages/Home';
 import About from './pages/About';
+import HealthInsurancePage from './pages/HealthInsurancePage';
 //404 ------------------------------------------------------------------------------------
 import p404 from './pages/Page404';
 
@@ -15,7 +16,8 @@ function Routes() {
    <Route path="/" component={Header} />
    <Switch>
     <Route path="/" exact component={Home} />
-    <Route path="/about" component={About} />
+    <Route path="/sobre" component={About} />
+    <Route path="/convenios" component={HealthInsurancePage} />
     <Route path='/*' component={p404} />
    </Switch>
    <Route path='/' component={Footer} />

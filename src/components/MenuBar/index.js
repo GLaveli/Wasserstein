@@ -9,7 +9,7 @@ function MenuBar() {
         <a href="/">Pagina inicial</a>
        </li>
        <li>
-        <a href="/about">Sobre</a>
+        <a href="/sobre">Sobre</a>
        </li>
        <li>
         <a className="drop" href="#">Especialidades</a>
@@ -26,18 +26,19 @@ function MenuBar() {
         </ul>
        </li>
        <li>
-        <a href="#">Convênios</a>
+        <a href="/convenios">Convênios</a>
        </li>
        <li>
         <a href="#">Contato</a>
        </li>
        <li>
-        <a href="#">Cadastro</a>
+        <a href="#">Deixe sua opnião</a>
        </li>
       </ul>
      </nav>
     </div>
    </div>
+   
   </>
  )
 }
