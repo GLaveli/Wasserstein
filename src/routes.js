@@ -1,9 +1,13 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
+//complements ----------------------------------------------------------------------------
 import Header from './components/Header';
 import Footer from './components/Footer';
+//Pages ----------------------------------------------------------------------------------
 import Home from './pages/Home';
 import About from './pages/About';
+//404 ------------------------------------------------------------------------------------
+import p404 from './pages/Page404';
 
 function Routes() {
  return (
@@ -12,6 +16,7 @@ function Routes() {
    <Switch>
     <Route path="/" exact component={Home} />
     <Route path="/about" component={About} />
+    <Route path='/*' component={p404} />
    </Switch>
    <Route path='/' component={Footer} />
   </BrowserRouter>

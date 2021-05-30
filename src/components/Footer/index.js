@@ -1,3 +1,5 @@
+import FooterInfo from '../FooterInfo';
+
 const todayData = new Date();
 const todayYear = todayData.getFullYear();
 
@@ -10,6 +12,7 @@ const footerText = 'Laveli </>'
 function Footer() {
  return (
   <>
+   <FooterInfo />
    <div className="wrapper row5">
     <div id="copyright" className="hoc clear">
      <p className="fl_left">Copyright &copy; {todayYear} - Todos os direitos reservados</p>
