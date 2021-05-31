@@ -1,8 +1,9 @@
+import BusinessCard from "../../components/BusinessCard";
 
 function About() {
  return (
   <>
-   About page is here!... wait, maybe coming soon
+   <BusinessCard reference={"https://www.escavador.com/sobre/3058718/silvia-wasserstein"} buttonText={"Curriculo no escavador"}/>
   </>
  )
 }

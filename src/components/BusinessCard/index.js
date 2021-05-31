@@ -1,7 +1,10 @@
 
 import drasilvia from '../../assets/dra-silvia-wasserstein.png'
 
-function BusinessCard() {
+function BusinessCard(props) {
+
+  const buttonText = props.buttonText;
+
   return (
     <>
       <div className="wrapper row3">
@@ -18,11 +21,11 @@ function BusinessCard() {
                 Medicina Física e Reabilitação, Dor e Acupuntura.
               </p>
               <footer>
-                <a className="btn" href="#">Veja o Currículo completo </a>
+                <a className="btn" href={props.reference}>{buttonText}</a>
               </footer>
             </div>
             <div className="one_half">
-              <class className="imgover" href="#">
+              <class className="imgover" href="">
                 <img className="borderedbox inspace-10" src={drasilvia} alt="Dra. Silvia" />
               </class>
             </div>

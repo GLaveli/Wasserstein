@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
       <Banner />
-      <BusinessCard />
+      <BusinessCard reference={"/sobre"} buttonText={"Saiba mais"}/>
       <Testimonial />
     </>
   )
