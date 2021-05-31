@@ -33,7 +33,7 @@ function Testimonial() {
        </figure>
       </li>
      </ul>
-     <footer><a class="btn" href="#">Ver mais &raquo;</a></footer>
+     <footer><a class="btn" href="#">Ver mais comantários &raquo;</a></footer>
 
     </section>
    </div>

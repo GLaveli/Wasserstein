@@ -1,5 +1,17 @@
+import { FaHeartbeat, FaCheck } from 'react-icons/fa';
 
-
+import amilImg from '../../assets/healthInsuranceImages/amil.png';
+import cabesp from '../../assets/healthInsuranceImages/cabesp.png';
+import careplus from '../../assets/healthInsuranceImages/careplus.png';
+import cassi from '../../assets/healthInsuranceImages/cassi.png';
+import dix from '../../assets/healthInsuranceImages/dix.png';
+import funcesp from '../../assets/healthInsuranceImages/funcesp.png';
+import gama from '../../assets/healthInsuranceImages/gama.png';
+import lincx from '../../assets/healthInsuranceImages/lincx.png';
+import medial from '../../assets/healthInsuranceImages/medial.png';
+import omint from '../../assets/healthInsuranceImages/omint.png';
+import one from '../../assets/healthInsuranceImages/one.png';
+import plasac from '../../assets/healthInsuranceImages/plasac.png';
 
 function HealthInsurance() {
  return (
@@ -11,87 +23,87 @@ function HealthInsurance() {
      </div>
      <ul class="nospace group">
       <li class="one_third">
-       <article><a href="#"><i class="fab fa-fort-awesome"></i></a>
-        <h6 class="heading">Amil</h6>
-        <p>Tempus eget mattis et risus nulla ligula in quam sed lobortis rutrum purus pellentesque dictum augue in quam.</p>
-        <footer><a href="#"><i class="fas fa-arrow-right"></i></a></footer>
+       <article><a href="#"><i class="fab fa-fort-awesome"><FaCheck /></i></a>
+
+        <img src={amilImg} />
+
        </article>
       </li>
       <li class="one_third">
-       <article><a href="#"><i class="fab fa-deviantart"></i></a>
-        <h6 class="heading">Cassi</h6>
-        <p>Nunc rhoncus nisi eu est nulla dolor donec ut dolor aliquam eget nunc etiam consequat enim vel nisl donec.</p>
-        <footer><a href="#"><i class="fas fa-arrow-right"></i></a></footer>
+       <article><a href="#"><i class="fab fa-deviantart"><FaCheck /></i></a>
+
+        <img src={cabesp} />
+
        </article>
       </li>
       <li class="one_third">
-       <article><a href="#"><i class="fab fa-sticker-mule"></i></a>
-        <h6 class="heading">Cabesp</h6>
-        <p>Hendrerit velit ac augue cras pharetra donec ligula mauris euismod sed lobortis quis ultricies lacus aenean.</p>
-        <footer><a href="#"><i class="fas fa-arrow-right"></i></a></footer>
+       <article><a href="#"><i class="fab fa-sticker-mule"><FaCheck /></i></a>
+
+        <img src={careplus} />
+
        </article>
       </li>
       <li class="one_third">
-       <article><a href="#"><i class="fas fa-user-secret"></i></a>
-        <h6 class="heading">CarePlus</h6>
-        <p>Auctor lorem a felis aliquam quam mi rutrum malesuada consequat vitae accumsan ut lacus aliquam ante tortor.</p>
-        <footer><a href="#"><i class="fas fa-arrow-right"></i></a></footer>
+       <article><a href="#"><i class="fas fa-user-secret"><FaCheck /></i></a>
+
+        <img src={cassi} />
+
        </article>
       </li>
       <li class="one_third">
-       <article><a href="#"><i class="fas fa-quidditch"></i></a>
-        <h6 class="heading">dix Saúde</h6>
-        <p>Suscipit sed semper ac nulla quisque eget lectus a quam ullamcorper consectetuer aliquam molestie tempor mauris.</p>
-        <footer><a href="#"><i class="fas fa-arrow-right"></i></a></footer>
+       <article><a href="#"><i class="fas fa-quidditch"><FaCheck /></i></a>
+
+        <img src={dix} />
+
        </article>
       </li>
       <li class="one_third">
-       <article><a href="#"><i class="fas fa-wheelchair"></i></a>
-        <h6 class="heading">Fundação Cesp</h6>
-        <p>Nunc accumsan metus quis metus vestibulum ut neque proin commodo semper magna aenean id eros vitae.</p>
-        <footer><a href="#"><i class="fas fa-arrow-right"></i></a></footer>
+       <article><a href="#"><i class="fas fa-wheelchair"><FaCheck /></i></a>
+
+        <img src={funcesp} />
+
        </article>
       </li>
       <li class="one_third">
-       <article><a href="#"><i class="fas fa-wheelchair"></i></a>
-        <h6 class="heading">Gama Saúde</h6>
-        <p>Nunc accumsan metus quis metus vestibulum ut neque proin commodo semper magna aenean id eros vitae.</p>
-        <footer><a href="#"><i class="fas fa-arrow-right"></i></a></footer>
+       <article><a href="#"><i class="fas fa-wheelchair"><FaCheck /></i></a>
+
+        <img src={gama} />
+
        </article>
       </li>
       <li class="one_third">
-       <article><a href="#"><i class="fas fa-wheelchair"></i></a>
-        <h6 class="heading">Lincx</h6>
-        <p>Nunc accumsan metus quis metus vestibulum ut neque proin commodo semper magna aenean id eros vitae.</p>
-        <footer><a href="#"><i class="fas fa-arrow-right"></i></a></footer>
+       <article><a href="#"><i class="fas fa-wheelchair"><FaCheck /></i></a>
+
+        <img src={lincx} />
+
        </article>
       </li>
       <li class="one_third">
-       <article><a href="#"><i class="fas fa-wheelchair"></i></a>
-        <h6 class="heading">Medial Saúde</h6>
-        <p>Nunc accumsan metus quis metus vestibulum ut neque proin commodo semper magna aenean id eros vitae.</p>
-        <footer><a href="#"><i class="fas fa-arrow-right"></i></a></footer>
+       <article><a href="#"><i class="fas fa-wheelchair"><FaCheck /></i></a>
+
+        <img src={medial} />
+
        </article>
       </li>
       <li class="one_third">
-       <article><a href="#"><i class="fas fa-wheelchair"></i></a>
-        <h6 class="heading">Omint</h6>
-        <p>Nunc accumsan metus quis metus vestibulum ut neque proin commodo semper magna aenean id eros vitae.</p>
-        <footer><a href="#"><i class="fas fa-arrow-right"></i></a></footer>
+       <article><a href="#"><i class="fas fa-wheelchair"><FaCheck /></i></a>
+
+        <img src={omint} />
+
        </article>
       </li>
       <li class="one_third">
-       <article><a href="#"><i class="fas fa-wheelchair"></i></a>
-        <h6 class="heading">OneHealth</h6>
-        <p>Nunc accumsan metus quis metus vestibulum ut neque proin commodo semper magna aenean id eros vitae.</p>
-        <footer><a href="#"><i class="fas fa-arrow-right"></i></a></footer>
+       <article><a href="#"><i class="fas fa-wheelchair"><FaCheck /></i></a>
+
+        <img src={one} />
+
        </article>
       </li>
       <li class="one_third">
-       <article><a href="#"><i class="fas fa-wheelchair"></i></a>
-        <h6 class="heading">Plasac</h6>
-        <p>Nunc accumsan metus quis metus vestibulum ut neque proin commodo semper magna aenean id eros vitae.</p>
-        <footer><a href="#"><i class="fas fa-arrow-right"></i></a></footer>
+       <article><a href="#"><i class="fas fa-wheelchair"><FaCheck /></i></a>
+
+        <img src={plasac} />
+
        </article>
       </li>
      </ul>
