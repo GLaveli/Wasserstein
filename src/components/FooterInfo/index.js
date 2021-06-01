@@ -13,7 +13,7 @@ function FooterInfo() {
      </p>
      <ul className="faico clear">
       <li>
-       <a classNameName="faicon-facebook" href="#"><i className="fab fa-facebook"></i></a>
+       <a className="faicon-facebook" href="#"><i className="fab fa-facebook"></i></a>
       </li>
       <li>
        <a className="faicon-google-plus" href="#"><i className="fab fa-google-plus-g"></i></a>

@@ -1,4 +1,3 @@
-
 import drasilvia from '../../assets/dra-silvia-wasserstein.png'
 
 function BusinessCard(props) {
