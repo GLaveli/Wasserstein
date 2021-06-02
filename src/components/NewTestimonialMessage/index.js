@@ -60,17 +60,14 @@ function MessageModal() {
         style={
           {
             overlay: {
-              position: 'fixed',
-              top: 100,
-              left: 500,
+              display: 'flex',
               bottom: 0,
-              width: `50%`,
-              height: `70%`,
-              overflow: 'hidden',
               backgroundColor: 'rgba(0, 0, 0, .5)'
             },
             content: {
-              position: 'absolute',
+              width: '750px',
+              height: '550px',
+              margin: 'auto',
               backgroundColor: '#fff',
               overflow: 'auto',
               WebkitOverflowScrolling: 'touch',
@@ -108,8 +105,11 @@ function MessageModal() {
             onChange={e => { setMessage(e.target.value) }} required
             maxlength="200" />
           <p className="subText">Maximo de 200 caracteres</p>
+          <div className="alignFlexButton">
+            <button className="submitButton" type="submit">Enviar mensagem!</button>
+            <button className="exitButton" onClick={() => setModalIsOpen(false)} >Fechar janela</button>
+          </div>
 
-          <button type="submit">Enviar mensagem!</button>
         </Container>
 
       </Modal>

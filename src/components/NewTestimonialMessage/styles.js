@@ -121,14 +121,25 @@ textarea{
  }
 }
 
-button[type="submit"]{
- width: 100%;
+.submitButton{
+ width: 300px;
  padding: 0 1.5rem;
  height: 4rem;
  background: #33CC95;
  color: #fff;
  border: 0;
- font-size: 1rem;
+ font-size: 1.3rem;
  margin-top: 1.5rem;
 }
+.exitButton{
+ width: 300px;
+ padding: 0 1.5rem;
+ height: 4rem;
+ background: #cc3333;
+ color: #fff;
+ border: 0;
+ font-size: 1.3rem;
+ margin-top: 1.5rem;
+}
+
 `;
