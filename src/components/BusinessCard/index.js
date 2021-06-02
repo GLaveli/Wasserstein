@@ -24,9 +24,9 @@ function BusinessCard(props) {
               </footer>
             </div>
             <div className="one_half">
-              <class className="imgover" href="">
+              <div className="imgover" href="">
                 <img className="borderedbox inspace-10" src={drasilvia} alt="Dra. Silvia" />
-              </class>
+              </div>
             </div>
           </article>
           <div className="clear"></div>

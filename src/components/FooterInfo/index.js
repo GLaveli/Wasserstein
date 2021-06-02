@@ -63,13 +63,13 @@ function FooterInfo() {
       <li>
        <article>
         <p className="nospace btmspace-10"><a href="#">Nostra per inceptos himenaeos cras augue est dictum quis&hellip;</a></p>
-        <time className="block font-xs" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
+        <time className="block font-xs" dateTime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
        </article>
       </li>
       <li>
        <article>
         <p className="nospace btmspace-10"><a href="#">Suscipit vel est in pulvinar aliquam vulputate purus in tincidunt&hellip;</a></p>
-        <time className="block font-xs" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
+        <time className="block font-xs" dateTime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
        </article>
       </li>
      </ul>

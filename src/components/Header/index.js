@@ -1,6 +1,7 @@
-import MenuBar from '../MenuBar'
+import MenuBar from '../MenuBar';
 
-function Header() {
+
+function Header({handleOpenNewTransactionModal}) {
  return (
   <>
    <div className="wrapper row0">
@@ -27,7 +28,9 @@ function Header() {
 
     </header>
    </div>
-   <MenuBar />
+
+   <MenuBar handleOpenNewTransactionModal={handleOpenNewTransactionModal}/>
+
   </>
  )
 }

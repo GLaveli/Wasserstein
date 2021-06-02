@@ -7,12 +7,9 @@ function Testimonial() {
 
   useEffect(() => {
     async function loadMessages() {
-      const response = await api.get('messages');
-
+      const response = await api.get('/testimunials');
 
       setMessages(response.data);
-
-      console.log(response.data);
     }
     loadMessages();
   }, []);

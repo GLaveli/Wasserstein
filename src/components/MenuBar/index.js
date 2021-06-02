@@ -1,3 +1,6 @@
+import { MessageModal } from '../NewTestimonialMessage/index';
+
+
 function MenuBar() {
  return (
   <>
@@ -32,13 +35,13 @@ function MenuBar() {
         <a href="#">Contato</a>
        </li>
        <li>
-        <a href="#">Deixe sua opnião</a>
+        <MessageModal />
        </li>
       </ul>
      </nav>
     </div>
    </div>
-   
+
   </>
  )
 }

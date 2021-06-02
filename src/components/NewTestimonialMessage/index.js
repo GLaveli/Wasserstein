@@ -1,0 +1,121 @@
+import { useState } from 'react';
+import Modal from 'react-modal';
+import { Container } from "./styles";
+import api from '../../services/api';
+
+
+Modal.setAppElement('#root')
+function MessageModal() {
+  const [modalIsOpne, setModalIsOpen] = useState(false);
+
+  const [changeTitle, setChangeTitle] = useState('Paciente');
+  const [name, setName] = useState('');
+  const [message, setMessage] = useState('');
+  const [isCheckedPray, setIsCheckedPray] = useState(true);
+  const [isCheckedLike, setIsCheckedLike] = useState(false);
+
+  function handleSelectors() {
+    if (isCheckedPray === false) {
+      setIsCheckedPray(true);
+      setIsCheckedLike(false);
+      setChangeTitle('Paciente');
+
+    }
+
+    if (isCheckedLike === false) {
+      setIsCheckedPray(false);
+      setIsCheckedLike(true);
+      setChangeTitle('Amigo / companheiro de trabalho');
+    }
+
+  }
+
+  async function handleCreateNewMessage(e) {
+    e.preventDefault();
+
+
+    await api.post("message", {
+      name,
+      message,
+      tipe: changeTitle
+    });
+
+    setChangeTitle('Paciente');
+    setName('');
+    setMessage('');
+    setIsCheckedPray(true);
+    setIsCheckedLike(false);
+
+    setModalIsOpen(false);
+  }
+
+
+  return (
+    <>
+      <button onClick={() => setModalIsOpen(true)}>Deixe sua mensagem</button>
+
+      <Modal
+        isOpen={modalIsOpne}
+        onRequestClose={() => setModalIsOpen(false)}
+        style={
+          {
+            overlay: {
+              position: 'fixed',
+              top: 100,
+              left: 500,
+              bottom: 0,
+              width: `50%`,
+              height: `70%`,
+              overflow: 'hidden',
+              backgroundColor: 'rgba(0, 0, 0, .5)'
+            },
+            content: {
+              position: 'absolute',
+              backgroundColor: '#fff',
+              overflow: 'auto',
+              WebkitOverflowScrolling: 'touch',
+              outline: 'none',
+              padding: '50px'
+            }
+          }
+        }>
+        <Container onSubmit={handleCreateNewMessage}>
+          <h2>Enviar mensagem como {changeTitle}!</h2>
+
+          <input className="modal-imput" placeholder="Seu nome aqui" value={name} onChange={e => { setName(e.target.value) }} />
+
+          <h1 className="selectorTitle">Eu sou:</h1>
+
+          <div className="order-selector">
+            <label className="switch">
+              <input name="pray" type="checkbox" checked={isCheckedPray} onClick={(e) => { handleSelectors() }} />
+              <span className="slider" />
+            </label>
+            <h3>Paciente</h3>
+          </div>
+
+          <div className="order-selector">
+            <label className="switch">
+              <input type="checkbox" checked={isCheckedLike} onChange={(e) => { handleSelectors() }} />
+              <span className="slider" />
+            </label>
+            <h3>Outros</h3>
+          </div>
+
+          <textarea
+            placeholder={`Digite sua mensagem como ${changeTitle} aqui!`}
+            value={message}
+            onChange={e => { setMessage(e.target.value) }} required={false}
+            maxlength="200" />
+          <p className="subText">Maximo de 200 caracteres</p>
+
+          <button type="submit">Enviar mensagem!</button>
+        </Container>
+
+      </Modal>
+    </>
+  );
+};
+
+
+export { MessageModal };
