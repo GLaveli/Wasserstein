@@ -105,7 +105,7 @@ function MessageModal() {
           <textarea
             placeholder={`Digite sua mensagem como ${changeTitle} aqui!`}
             value={message}
-            onChange={e => { setMessage(e.target.value) }} required={false}
+            onChange={e => { setMessage(e.target.value) }} required
             maxlength="200" />
           <p className="subText">Maximo de 200 caracteres</p>
 
