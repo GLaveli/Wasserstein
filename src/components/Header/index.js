@@ -6,7 +6,7 @@ import './styles.css';
 function Header({ handleOpenNewTransactionModal }) {
 
  const apiMessage = 'Olá!';
- const apiNumber = '5548996257220';
+ const apiNumber = '5511945152685';
  const apiWhasapp = `https://api.whatsapp.com/send?phone=${apiNumber}&text=${apiMessage}`;
 
  return (
