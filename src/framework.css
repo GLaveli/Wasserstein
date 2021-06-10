@@ -156,6 +156,10 @@ a {
  float: right;
 }
 
+.flexAlignImages{
+ display: flex;
+}
+
 img {
  width: auto;
  max-width: 100%;
@@ -181,6 +185,12 @@ img {
  display: inline-block;
  position: relative;
  max-width: 70%;
+}
+
+.imgover50 {
+ display: inline-block;
+ position: relative;
+ max-width: 60%;
 }
 
 /* Fonts

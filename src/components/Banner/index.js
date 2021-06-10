@@ -19,11 +19,9 @@ function Banner() {
       <h3 className="heading">Medicina Física, Reabilitação, Dor e Acupuntura</h3>
       <footer>
        <ul className="nospace inline pushright">
-        {/*
-        <li>
+        {/* <li>
          <a className="btn" href="#">Saiba mais</a>
-        </li>
-        */}
+        </li> */}
         <li>
          <a className="btn inverse" href="/convenios">Convênios</a>
         </li>

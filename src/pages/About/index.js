@@ -1,10 +1,9 @@
-import BusinessCard from "../../components/BusinessCard";
-import Specialties from "../../components/Specialties";
+import BusinessCardComplete from "../../components/BusinessCardComplete";
 
 function About() {
  return (
   <>
-   <BusinessCard reference={"https://www.escavador.com/sobre/3058718/silvia-wasserstein"} buttonText={"Curriculo no escavador"}/>
+   <BusinessCardComplete />
   </>
  )
 }

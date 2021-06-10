@@ -18,6 +18,9 @@ function BusinessCard() {
               <p className="btmspace-30">
                 Medicina Física e Reabilitação, Dor e Acupuntura.
               </p>
+              <li>
+                <a className="btn" href="sobre">Saiba mais</a>
+              </li>
             </div>
             <div className="one_half">
               <div className="imgover" href="">
@@ -25,7 +28,9 @@ function BusinessCard() {
               </div>
             </div>
           </article>
-          <div className="clear"></div>
+          <div className="clear">
+
+          </div>
         </main>
       </div>
 
