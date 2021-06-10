@@ -16,8 +16,8 @@ function Header({ handleOpenNewTransactionModal }) {
 
      <div id="logo" className="one_quarter first">
       <h1 className="logoname clear"><a href="/"><i className="fas fa-handshake"></i> <span>Dra. Sílvia Wasserstein</span></a></h1>
-      <p className="justify">Medicina Física e Reabilitação</p>
-      <br/>
+      <p>Medicina Física e Reabilitação</p>
+      <br />
      </div>
      <div className="three_quarter">
       <ul className="nospace clear">

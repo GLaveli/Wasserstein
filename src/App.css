@@ -960,9 +960,6 @@ input:focus, textarea:focus, *:required:focus {
 	border-color: #256492;
 }
 
-.justify{
-padding-bottom: 560px;
-}
 
 #cta .btn:hover {
 	color: inherit;

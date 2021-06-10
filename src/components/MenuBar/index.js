@@ -22,7 +22,7 @@ function MenuBar() {
         <a href="/convenios">Convênios</a>
        </li>
        <li>
-        <a href="#">Contato</a>
+        <a href="/contato">Contato</a>
        </li>
        <li>
         <MessageModal />
