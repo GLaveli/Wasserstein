@@ -4,6 +4,26 @@ nav ul, nav ol {
  list-style: none;
 }
 
+button{
+ font-size: 1rem;
+ color: rgb(0, 0, 0);
+ border: 0;
+ padding: 0 2rem;
+ background: #82B7DF;
+ border-radius: 0.25rem;
+ height: 3rem;
+}
+
+button:hover{
+ font-size: 1rem;
+ color: #fdfdfd;
+ background-color: #5585aa;
+ border: 0;
+ padding: 0 2rem;
+ border-radius: 0.25rem;
+ height: 3rem;
+}
+
 #mainav, #breadcrumb, .sidebar nav {
  line-height: normal;
 }

@@ -25,7 +25,7 @@ function MenuBar() {
         <a href="/contato">Contato</a>
        </li>
        <li>
-        <MessageModal />
+        <MessageModal/>
        </li>
       </ul>
      </nav>
