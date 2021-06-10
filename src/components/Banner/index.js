@@ -1,4 +1,6 @@
-import imgEscritorio from '../../assets/escritorio.png'
+import imgEscritorio from '../../assets/escritorio.png';
+
+import './styles.css';
 
 function Banner() {
 

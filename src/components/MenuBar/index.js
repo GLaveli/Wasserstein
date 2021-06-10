@@ -1,5 +1,6 @@
 import { MessageModal } from '../NewTestimonialMessage/index';
 
+import './styles.css'
 
 function MenuBar() {
  return (
@@ -15,18 +16,7 @@ function MenuBar() {
         <a href="/sobre">Sobre</a>
        </li>
        <li>
-        <a className="drop" href="#">Especialidades</a>
-        <ul>
-         <li>
-          <a href="pages/gallery.html">Fisiatria</a>
-         </li>
-         <li>
-          <a href="pages/full-width.html">Tratamento de dores</a>
-         </li>
-         <li>
-          <a href="pages/sidebar-left.html">Acupuntura</a>
-         </li>
-        </ul>
+        <a href="especialidades">Especialidades</a>
        </li>
        <li>
         <a href="/convenios">Convênios</a>

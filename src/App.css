@@ -332,7 +332,6 @@
 /* Click to Action
 --------------------------------------------------------------------------------------------------------------- */
 
-
 #cta {}
 
 #cta> :first-child {
@@ -498,76 +497,6 @@
 	text-align: center;
 }
 
-/* Footer
---------------------------------------------------------------------------------------------------------------- */
-
-#footer {
-	padding: 80px 0;
-}
-
-#footer .heading {
-	margin-bottom: 50px;
-}
-
-#footer .logoname {
-	margin: -12px 0 35px;
-}
-
-#footer .logoname * {
-	margin: 0;
-	padding: 0;
-	line-height: 1;
-}
-
-#footer .linklist li {
-	display: block;
-	margin-bottom: 15px;
-	padding: 0 0 15px 0;
-	border-bottom: 1px solid;
-}
-
-#footer .linklist li:last-child {
-	margin: 0;
-	padding: 0;
-	border: none;
-}
-
-#footer .linklist li::before, #footer .linklist li::after {
-	display: table;
-	content: "";
-}
-
-#footer .linklist li, #footer .linklist li::after {
-	clear: both;
-}
-
-#footer .contact {}
-
-#footer .contact.linklist li {
-	margin-bottom: 10px;
-}
-
-#footer .contact.linklist li, #footer .contact.linklist li:last-child {
-	position: relative;
-	padding-left: 40px;
-}
-
-#footer .contact li * {
-	margin: 0;
-	padding: 0;
-	line-height: 1.6;
-}
-
-#footer .contact li i {
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 30px;
-	font-size: 16px;
-	text-align: center;
-}
-
 /* Copyright
 --------------------------------------------------------------------------------------------------------------- */
 
@@ -594,145 +523,8 @@ Delete it completely to stop fading
 	transition: none !important;
 }
 
-/* ------------------------------------------------------------------------------------------------------------ */
-
-/* ------------------------------------------------------------------------------------------------------------ */
-
-/* ------------------------------------------------------------------------------------------------------------ */
-
-/* ------------------------------------------------------------------------------------------------------------ */
-
-/* ------------------------------------------------------------------------------------------------------------ */
-
 /* Navigation
 --------------------------------------------------------------------------------------------------------------- */
-
-nav ul, nav ol {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-#mainav, #breadcrumb, .sidebar nav {
-	line-height: normal;
-}
-
-#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after {
-	position: absolute;
-	font-family: "Font Awesome\ 5 Free";
-	font-weight: 900;
-	font-size: 10px;
-	line-height: 10px;
-}
-
-/* Top Navigation */
-
-#mainav {
-	position: relative;
-	margin-top: -1px;
-	z-index: 0;
-}
-
-#mainav ul {
-	text-transform: uppercase;
-}
-
-#mainav ul ul {
-	position: absolute;
-	width: 180px;
-	text-transform: none;
-}
-
-#mainav ul ul ul {
-	left: 180px;
-	top: 0;
-}
-
-#mainav li {
-	display: inline-block;
-	position: relative;
-	margin: 0 20px 0 0;
-	padding: 0;
-}
-
-#mainav li:last-child {
-	margin-right: 0;
-}
-
-#mainav li li {
-	width: 100%;
-	margin: 0;
-}
-
-#mainav li a {
-	display: block;
-	padding: 30px 0;
-	border: solid;
-	border-width: 1px 0 0 0;
-}
-
-#mainav li li a {
-	border-width: 0 0 1px 0;
-}
-
-#mainav .drop {
-	padding-left: 15px;
-}
-
-#mainav li li a, #mainav li li .drop {
-	display: block;
-	margin: 0;
-	padding: 10px 15px;
-}
-
-#mainav .drop::after, #mainav li li .drop::after {
-	content: "\f0d7";
-}
-
-#mainav .drop::after {
-	top: 35px;
-	left: 5px;
-}
-
-#mainav li li .drop::after {
-	top: 15px;
-	left: 5px;
-}
-
-#mainav ul ul {
-	visibility: hidden;
-	opacity: 0;
-}
-
-#mainav ul li:hover>ul {
-	visibility: visible;
-	opacity: 1;
-}
-
-#mainav form {
-	display: none;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
-
-#mainav form select, #mainav form select option {
-	display: block;
-	cursor: pointer;
-	outline: none;
-}
-
-#mainav form select {
-	width: 100%;
-	padding: 5px;
-	border: 1px solid;
-}
-
-#mainav form select option {
-	margin: 5px;
-	padding: 0;
-	border: none;
-}
 
 /* Breadcrumb */
 
@@ -1121,22 +913,6 @@ input:focus, textarea:focus, *:required:focus {
 	background-color: #151618;
 }
 
-/* Header */
-
-#header #logo .logoname a {
-	color: inherit;
-}
-
-#header ul li div i {
-	border-color: rgba(0, 0, 0, .1);
-}
-
-/* Page Intro */
-
-#pageintro {
-	color: #FFFFFF;
-}
-
 /* convenios */
 
 #services li article {
@@ -1344,15 +1120,7 @@ table a, #comments a {
 	background-color: inherit;
 }
 
-/* ------------------------------------------------------------------------------------------------------------ */
 
-/* ------------------------------------------------------------------------------------------------------------ */
-
-/* ------------------------------------------------------------------------------------------------------------ */
-
-/* ------------------------------------------------------------------------------------------------------------ */
-
-/* ------------------------------------------------------------------------------------------------------------ */
 
 /* Media Queries
 --------------------------------------------------------------------------------------------------------------- */
@@ -1389,9 +1157,7 @@ table a, #comments a {
 		margin-top: 0;
 		padding: 30px 0;
 	}
-	#mainav ul {
-		display: none;
-	}
+
 	#mainav form {
 		display: block;
 	}
@@ -1500,7 +1266,7 @@ table a, #comments a {
 /* Custom
 --------------------------------------------------------------------------------------------------------------- */
 
-.alignFlexButton{
+.alignFlexButton {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;

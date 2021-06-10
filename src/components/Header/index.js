@@ -1,5 +1,6 @@
 import MenuBar from '../MenuBar';
 
+import './styles.css';
 
 function Header({handleOpenNewTransactionModal}) {
  return (

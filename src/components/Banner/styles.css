@@ -1,0 +1,14 @@
+#pageintro {
+	padding: 220px 0;
+}
+
+#pageintro article {}
+
+#pageintro .heading {
+	font-size: 5rem;
+	font-weight: 700;
+}
+
+#pageintro footer {
+	margin-top: 50px;
+}

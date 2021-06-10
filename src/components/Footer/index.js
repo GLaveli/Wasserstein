@@ -1,5 +1,7 @@
 import FooterInfo from '../FooterInfo';
 
+import './styles.css'
+
 const todayData = new Date();
 const todayYear = todayData.getFullYear();
 

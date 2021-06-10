@@ -1,4 +1,5 @@
 import BusinessCard from "../../components/BusinessCard";
+import Specialties from "../../components/Specialties";
 
 function About() {
  return (
