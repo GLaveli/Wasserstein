@@ -31,7 +31,7 @@ function Curriculum() {
 
    <article className="group">
     <div className="one_half first">
-     <p><strong> Especialização </strong></p>
+     <p><strong> Especialidades </strong></p>
 
      <ul>
       <li>Medicina Física</li>

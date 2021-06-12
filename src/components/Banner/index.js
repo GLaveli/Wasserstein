@@ -16,15 +16,17 @@ function Banner() {
    <div className="wrapper bgded overlay" style={bgBannerImage}>
     <div id="pageintro" className="hoc clear">
      <article>
-      <h3 className="heading">Medicina Física, Reabilitação, Dor e Acupuntura</h3>
+
+      <h3 className="heading-text">Dra. Sílvia Wasserstein </h3>
+      <h4 className="heading-text-sub">Medicina Física, Reabilitação, Dor e Acupuntura</h4>
       <footer>
        <ul className="nospace inline pushright">
         {/* <li>
          <a className="btn" href="#">Saiba mais</a>
         </li> */}
-        <li>
+        {/* <li>
          <a className="btn inverse" href="/convenios">Convênios</a>
-        </li>
+        </li> */}
        </ul>
       </footer>
      </article>

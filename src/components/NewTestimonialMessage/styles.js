@@ -11,7 +11,7 @@ h1{
 h2{
  color: #363f5f;
  font: 1.5rem;
- margin-bottom: 2rem;
+
 }
 
 .subText{
@@ -91,6 +91,23 @@ input:checked + .slider::before{
  }
 }
 
+.modal-imput-code{
+ width: 90px;
+ padding: 0 1.5rem;
+ height: 2rem;
+ border-radius: 0.25rem;
+ border: 1px solid #000;
+ color: #000;
+ background: #e7e9ee;
+ font-weight: 400;
+ font-size: 1rem;
+
+ & + div{
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+ }
+}
+
 .order-selector{
 display: flex;
 flex-direction: row;
@@ -99,7 +116,6 @@ h3{
  margin-left: 10px;
 }
 }
-
 
 textarea{
  padding-right: 30px;
@@ -123,23 +139,19 @@ textarea{
 
 .submitButton{
  width: 300px;
- padding: 0 1.5rem;
- height: 4rem;
+ height: 3rem;
  background: #33CC95;
  color: #fff;
  border: 0;
  font-size: 1.3rem;
- margin-top: 1.5rem;
 }
 .exitButton{
  width: 300px;
- padding: 0 1.5rem;
- height: 4rem;
+ height: 3rem;
  background: #cc3333;
  color: #fff;
  border: 0;
  font-size: 1.3rem;
- margin-top: 1.5rem;
 }
 
 `;

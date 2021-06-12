@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 html {
  overflow-y: scroll;
  overflow-x: hidden;
@@ -156,7 +155,7 @@ a {
  float: right;
 }
 
-.flexAlignImages{
+.flexAlignImages {
  display: flex;
 }
 
@@ -250,6 +249,13 @@ h1, h2, h3, h4, h5, h6, .heading {
  font-size: 1.4rem;
  line-height: normal;
  font-weight: normal;
+}
+
+.heading-text {
+ font-size: 5rem;
+}
+.heading-text-sub {
+ font-size: 3rem;
 }
 
 .heading.nospace {

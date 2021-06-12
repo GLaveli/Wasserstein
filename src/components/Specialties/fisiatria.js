@@ -51,7 +51,7 @@ function Fisiatria() {
 
                                     <p><strong> Lesões esportivas </strong></p>
 
-                                    <p>DTendinites, bursites, fasciíte plantar, avaliação de calçados
+                                    <p>Tendinites, bursites, fasciíte plantar, avaliação de calçados
                                     </p>
 
                                     <p><strong> Reabilitação em doenças ocupacionais </strong></p>
@@ -62,14 +62,12 @@ function Fisiatria() {
                                     <p><strong> Atuação do Fisiatra</strong></p>
 
                                     <ul>
-                                          <li>rescrição de medicações;</li>
+                                          <li>Prescrição de medicações;</li>
                                           <li>Prescrição de órteses próteses e auxiliares de locomoção;</li>
                                           <li>Prescrição de tratamentos fisioterápicos, de terapia ocupacional, fonoaudiologia, psicologia e nutrição;</li>
                                           <li>Realização de procedimentos como infiltrações e bloqueios anestésicos, agulhamentos, mesoterapia;</li>
                                           <li>Aplicação de toxina botulínica para espasticidade, distonia, dor, etc.</li>
                                     </ul>
-
-
 
                                     <p><strong> Histórico </strong></p>
                                     <p className="btmspace-30">
@@ -77,13 +75,13 @@ function Fisiatria() {
                                           seu objetivo é restaurar a funcionalidade física do paciente trazendo
                                           benefícios físicos, emocionais e sociais. O médico fisiatra atende qualquer
                                           faixa etária.
-                                          </p>
+                                    </p>
                                     <p className="btmspace-30">
                                           Em 1947 a especialidade Medicina Física e Reabilitação foi reconhecida pelo Conselho Nacional de Especialidades Médicas Americano.
-                                          </p>
+                                    </p>
                                     <p className="btmspace-30">
                                           No Brasil, somente em 1954 a Fisiatria foi estabelecida como uma especialidade médica.
-                                          </p>
+                                    </p>
                               </div>
                         </main>
                   </div>

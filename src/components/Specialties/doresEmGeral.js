@@ -98,33 +98,6 @@ function DoresEmGeral() {
        Em média, varia de 4 a 6 meses.
      </p>
 
-      <p><strong> Atuação do Fisiatra</strong></p>
-
-      <ul>
-       <li>rescrição de medicações;</li>
-       <li>Prescrição de órteses próteses e auxiliares de locomoção;</li>
-       <li>Prescrição de tratamentos fisioterápicos, de terapia ocupacional, fonoaudiologia, psicologia e nutrição;</li>
-       <li>Realização de procedimentos como infiltrações e bloqueios anestésicos, agulhamentos, mesoterapia;</li>
-       <li>Aplicação de toxina botulínica para espasticidade, distonia, dor, etc.</li>
-      </ul>
-
-
-
-      <p><strong> Histórico </strong></p>
-      <p className="btmspace-30">
-       O médico fisiatria é especializado em oferecer qualidade de vida, pois
-       seu objetivo é restaurar a funcionalidade física do paciente trazendo
-       benefícios físicos, emocionais e sociais. O médico fisiatra atende qualquer
-       faixa etária.
-      </p>
-      <p className="btmspace-30">
-       Em 1947 a especialidade Medicina Física e Reabilitação foi reconhecida pelo Conselho Nacional de Especialidades Médicas Americano.
-      </p>
-      <p className="btmspace-30">
-       No Brasil, somente em 1954 a Fisiatria foi estabelecida como uma especialidade médica.
-      </p>
-
-
      </div>
     </main>
    </div>

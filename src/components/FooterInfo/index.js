@@ -29,7 +29,7 @@ function FooterInfo() {
             <li>
               <article>
                 <p className="nospace btmspace-10">Segunda a sexta-feira</p>
-                <p className="nospace btmspace-10">08:00h - 17:00h</p>
+                <p className="nospace btmspace-10">09:00h - 18:00h</p>
               </article>
             </li>
             <li>

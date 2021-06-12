@@ -19,7 +19,7 @@ function BusinessCard() {
                 Medicina Física e Reabilitação, Dor e Acupuntura.
               </p>
               <li>
-                <a className="btn" href="sobre">Saiba mais</a>
+                <a className="btn" href="sobre">Currículo completo</a>
               </li>
             </div>
             <div className="one_half">

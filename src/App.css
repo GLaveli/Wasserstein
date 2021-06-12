@@ -95,7 +95,7 @@
 #pageintro article {}
 
 #pageintro .heading {
-	font-size: 5rem;
+	font-size: 4rem;
 	font-weight: 700;
 }
 
@@ -516,7 +516,7 @@ Delete it completely to stop fading
 --------------------------------------------------------------------------------------------------------------- */
 
 *, *::before, *::after {
-	transition: all .3s ease-in-out;
+	transition: all .1s ease-in-out;
 }
 
 #mainav form * {

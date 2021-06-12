@@ -11,6 +11,7 @@ function MessageModal() {
   const [changeTitle, setChangeTitle] = useState('Paciente');
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
+  const [sendCode, setSendCode] = useState('');
   const [isCheckedPray, setIsCheckedPray] = useState(true);
   const [isCheckedLike, setIsCheckedLike] = useState(false);
 
@@ -66,23 +67,22 @@ function MessageModal() {
             },
             content: {
               width: '750px',
-              height: '550px',
+              height: '500px',
               margin: 'auto',
               backgroundColor: '#fff',
               overflow: 'auto',
               WebkitOverflowScrolling: 'touch',
               outline: 'none',
-              padding: '50px'
+              padding: '20px'
             }
           }
         }>
         <Container onSubmit={handleCreateNewMessage}>
-          <h2>Enviar mensagem como {changeTitle}!</h2>
 
-          <input className="modal-imput" placeholder="Seu nome aqui" value={name} onChange={e => { setName(e.target.value) }} />
+          <h2>Enviar mensagem como {changeTitle}!</h2>
+          <input className="modal-imput" placeholder="Seu nome aqui" value={name} onChange={e => { setName(e.target.value) }} required/>
 
           <h1 className="selectorTitle">Eu sou:</h1>
-
           <div className="order-selector">
             <label className="switch">
               <input name="pray" type="checkbox" checked={isCheckedPray} onClick={(e) => { handleSelectors() }} />
@@ -104,12 +104,14 @@ function MessageModal() {
             value={message}
             onChange={e => { setMessage(e.target.value) }} required
             maxlength="200" />
+
           <p className="subText">Maximo de 200 caracteres</p>
+          <input className="modal-imput-code" placeholder="57989" value={name} onChange={e => { setName(e.target.value) }} required/> 
+          <p className="subText">Código de envio</p>
           <div className="alignFlexButton">
             <button className="submitButton" type="submit">Enviar mensagem!</button>
             <button className="exitButton" onClick={() => setModalIsOpen(false)} >Fechar janela</button>
           </div>
-
         </Container>
 
       </Modal>

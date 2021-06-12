@@ -5,7 +5,7 @@ import cabesp from '../../assets/healthInsuranceImages/cabesp.png';
 import careplus from '../../assets/healthInsuranceImages/careplus.png';
 import cassi from '../../assets/healthInsuranceImages/cassi.png';
 import dix from '../../assets/healthInsuranceImages/dix.png';
-import funcesp from '../../assets/healthInsuranceImages/funcesp.png';
+import vivest from '../../assets/healthInsuranceImages/vivest.png';
 import gama from '../../assets/healthInsuranceImages/gama.png';
 import lincx from '../../assets/healthInsuranceImages/lincx.png';
 import medial from '../../assets/healthInsuranceImages/medial.png';
@@ -60,17 +60,17 @@ function HealthInsurance() {
       <li className="one_third">
        <article><a href="#"><i className="fas fa-wheelchair"><FaCheck /></i></a>
 
-        <img src={funcesp} />
+        <img src={vivest} />
 
        </article>
       </li>
-      <li className="one_third">
+      {/* <li className="one_third">
        <article><a href="#"><i className="fas fa-wheelchair"><FaCheck /></i></a>
 
         <img src={gama} />
 
        </article>
-      </li>
+      </li> */}
       <li className="one_third">
        <article><a href="#"><i className="fas fa-wheelchair"><FaCheck /></i></a>
 
@@ -99,13 +99,13 @@ function HealthInsurance() {
 
        </article>
       </li>
-      <li className="one_third">
+      {/* <li className="one_third">
        <article><a href="#"><i className="fas fa-wheelchair"><FaCheck /></i></a>
 
         <img src={plasac} />
 
        </article>
-      </li>
+      </li> */}
      </ul>
     </section>
    </div>
