@@ -157,6 +157,7 @@ a {
 
 .flexAlignImages {
  display: flex;
+ flex-direction: row;
 }
 
 img {
@@ -254,6 +255,7 @@ h1, h2, h3, h4, h5, h6, .heading {
 .heading-text {
  font-size: 5rem;
 }
+
 .heading-text-sub {
  font-size: 3rem;
 }
@@ -442,3 +444,8 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section 
 .inspace-80 {
  padding: 80px;
 }
+
+.top-spacing40{
+ padding-top: 40px ;
+}
+

@@ -1,6 +1,7 @@
 import Acupuntura from "./acupuntura";
 import Fisiatria from "./fisiatria";
 import DoresEmGeral from "./doresEmGeral";
+import Canabis from "./cannabis ";
 
 function Specialties() {
 
@@ -9,6 +10,7 @@ function Specialties() {
                   <Fisiatria />
                   <DoresEmGeral />
                   <Acupuntura />
+                  <Canabis />
             </>
       )
 }

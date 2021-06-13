@@ -4,17 +4,17 @@ function Acupuntura() {
 
       return (
             <>
-                  <div className="wrapper row3">
+                  <div className="wrapper row3" id="acupuntura">
                         <main className="hoc container clear">
                               <article className="group">
                                     <div className="one_half first">
                                           <h6 className="heading underline font-x2">Acupuntura</h6>
                                           <p className="btmspace-30">
                                                 Acupuntura é especialidade médica, não terapia alternativa.
-                                                </p>
+                                          </p>
                                           <p className="btmspace-30">
                                                 Método terapêutico de neuromodulação periférica originário da China, a acupuntura foi reconhecida, no Brasil, como especialidade médica pelo Conselho Federal de Medicina, em 1995. Devido ao procedimento pouco convencional - inserção de agulhas finas na pele - às vezes a acupuntura gera desconfiança nos pacientes. No entanto, a técnica é indicada por especialistas de diferentes áreas no tratamento de diversas doenças e conta com cobertura até mesmo de planos de saúde.
-                                                </p>
+                                          </p>
 
 
                                     </div>
@@ -43,11 +43,11 @@ function Acupuntura() {
                                           <li>
                                                 <p>
                                                       Importante é que o profissional esteja habilitado e não só saiba como fazer a acupuntura de maneira correta e segura, mas também seja capaz de diagnosticar o problema do paciente e indicar o tratamento adequado.
-                                                      </p>
+                                                </p>
                                           </li>
                                     </ul>
 
-                                    <h1><strong>Doenças tratadas pelo fisiatra: </strong></h1>
+                                    <h1><strong>Agulhamento de Patologias Miofisicas: </strong></h1>
 
                                     <p className="btmspace-30">
                                           Os pontos-gatilho miofasciais (PGMs) são definidos como nódulos palpáveis presentes numa faixa tensa localizada no músculo que, espontaneamente ou à dígito-pressão, produzem um padrão de dor referida reconhecida pelo paciente.

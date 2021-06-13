@@ -5,7 +5,7 @@ function Fisiatria() {
 
       return (
             <>
-                  <div className="wrapper row3">
+                  <div className="wrapper row3" id="fisiatria">
                         <main className="hoc container clear">
                               <article className="group">
                                     <div className="one_half first">

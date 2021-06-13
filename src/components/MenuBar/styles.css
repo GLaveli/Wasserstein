@@ -1,122 +1,85 @@
+:root {
+ --cor-fundo: rgb(255, 255, 255);
+ --cor-hover: #82B7DF;
+ --cor-primaria: rgb(0, 0, 0);
+}
+
 nav ul, nav ol {
  margin: 0;
  padding: 0;
  list-style: none;
 }
 
-button{
+button {
  font-size: 1rem;
  color: rgb(0, 0, 0);
  border: 0;
  padding: 0 2rem;
- background: #82B7DF;
+ background: var(--cor-fundo);
  border-radius: 0.25rem;
  height: 3rem;
 }
 
-button:hover{
+button:hover {
  font-size: 1rem;
- color: #fdfdfd;
- background-color: #5585aa;
+ color: #000000;
+ background-color: var(--cor-hover);
  border: 0;
  padding: 0 2rem;
  border-radius: 0.25rem;
  height: 3rem;
 }
 
-#mainav, #breadcrumb, .sidebar nav {
- line-height: normal;
+.dp-menu ul {
+ display: flex;
+ flex-direction: row;
+ list-style-type: none;
+ padding: 0;
+ z-index: 99999;
 }
 
-#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after {
- position: absolute;
- font-family: "Font Awesome\ 5 Free";
- font-weight: 900;
- font-size: 10px;
- line-height: 10px;
+.dp-menu ul {
+ background-color: var(--cor-fundo);
 }
 
-/* Top Navigation */
+.dp-menu ul .border {
+ border: solid 1px rgb(41, 41, 41);
+ width: 190px;
+}
 
-#mainav {
+.dp-menu ul li {
+ display: inline;
  position: relative;
- margin-top: -1px;
- z-index: 0;
 }
 
-#mainav ul {
- text-transform: uppercase;
-}
-
-#mainav ul ul {
- position: absolute;
- width: 180px;
- text-transform: none;
-}
-
-#mainav ul ul ul {
- left: 180px;
- top: 0;
-}
-
-#mainav li {
+.dp-menu ul li a {
+ color: var(--cor-primaria);
+ text-decoration: none;
  display: inline-block;
- position: relative;
- margin: 0 20px 0 0;
- padding: 0;
+ padding: 10px;
+ transition: background .3s;
 }
 
-#mainav li:last-child {
- margin-right: 0;
+.dp-menu ul li a:hover {
+ background-color: var(--cor-hover);
 }
 
-#mainav li li {
- width: 100%;
- margin: 0;
-}
+/*sub menu*/
 
-#mainav li a {
- display: block;
- padding: 30px 0;
- border: solid;
- border-width: 1px 0 0 0;
-}
-
-#mainav li li a {
- border-width: 0 0 1px 0;
-}
-
-#mainav ul ul {
- visibility: hidden;
- opacity: 0;
-}
-
-#mainav ul li:hover>ul {
- visibility: visible;
- opacity: 1;
-}
-
-#mainav form {
+.dp-menu ul ul {
  display: none;
- width: 100%;
- margin: 0;
- padding: 0;
+ left: 0;
+ position: absolute;
 }
 
-#mainav form select, #mainav form select option {
+.dp-menu ul li:hover ul {
  display: block;
- cursor: pointer;
- outline: none;
 }
 
-#mainav form select {
- width: 100%;
- padding: 5px;
- border: 1px solid;
+.dp-menu ul ul {
+ width: 150px
 }
 
-#mainav form select option {
- margin: 5px;
- padding: 0;
- border: none;
+.dp-menu ul ul li a {
+ display: block;
 }

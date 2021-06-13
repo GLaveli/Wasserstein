@@ -1,11 +1,14 @@
-import acupuntura from '../../assets/appointment.jpg';
+import appointment from '../../assets/appointment.jpg';
 import office1 from '../../assets/office/01.jpg';
 import office2 from '../../assets/office/02.jpg';
 import office3 from '../../assets/office/03.jpg';
+import office4 from '../../assets/office/04.jpg';
+import blank from '../../assets/office/blank.jpg';
 
 function Curriculum() {
  return (
   <>
+  
    <p><strong> Especialização </strong></p>
    <p className="btmspace-30">
     FISIATRIA - Especialização em Medicina Física e Reabilitação pela Associação de Assistência à Criança Defeituosa - AACD - São Paulo - 1988/1989.
@@ -28,6 +31,9 @@ function Curriculum() {
    <p className="btmspace-30">
     DOR - Curso Pós Graduação - Especialização em cuidados ao Paciente com Dor - Hospital Sírio Libanês - IEP - São Paulo - 2016.
    </p>
+   <p className="btmspace-30">
+    MEDICINA ENDOCANABINÓIDE - Certificação Internacional pela WeCann. Curso iniciado em Março de 2020
+   </p>
 
    <article className="group">
     <div className="one_half first">
@@ -36,14 +42,15 @@ function Curriculum() {
      <ul>
       <li>Medicina Física</li>
       <li>Reabilitação</li>
-      <li>Dor </li>
+      <li>Dor</li>
+      <li>Medicina Endocanabinóide</li>
       <li>Acupuntura</li>
      </ul>
 
     </div>
     <div className="one_half">
      <div className="imgover" href="">
-      <img className="borderedbox inspace-10" src={acupuntura} alt="Dra. Silvia" />
+      <img className="borderedbox inspace-10" src={appointment} alt="Dra. Silvia" />
      </div>
     </div>
    </article>
@@ -99,9 +106,14 @@ function Curriculum() {
    <div className="one_half">
     <div className="imgover50">
      <div className="flexAlignImages">
+      <img className="borderedbox inspace-10" src={blank} alt="Dra. Silvia" />
+      <img className="borderedbox inspace-10" src={office4} alt="Dra. Silvia" />
+      <img className="borderedbox inspace-10" src={blank} alt="Dra. Silvia" />
+     </div>
+     <div className="flexAlignImages">
       <img className="borderedbox inspace-10" src={office1} alt="Dra. Silvia" />
       <img className="borderedbox inspace-10" src={office2} alt="Dra. Silvia" />
-      <img className="borderedbox inspace-10" src={office3} alt="Dra. Silvia" />
+      <img className="borderedbox inspace-10 correct" src={office3} alt="Dra. Silvia" />
      </div>
     </div>
    </div>

@@ -4,7 +4,7 @@ function DoresEmGeral() {
 
  return (
   <>
-   <div className="wrapper row3">
+   <div className="wrapper row3" id="dores">
     <main className="hoc container clear">
      <article className="group">
       <div className="one_half first">

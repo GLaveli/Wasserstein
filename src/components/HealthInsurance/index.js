@@ -18,9 +18,9 @@ function HealthInsurance() {
   <>
    <div className="wrapper row3">
     <section id="services" className="hoc container clear">
-     <div className="center btmspace-80">
+     {/* <div className="center btmspace-40">
       <h6 className="heading underline font-x2">Convênios</h6>
-     </div>
+     </div> */}
      <ul className="nospace group">
       <li className="one_third">
        <article><a href="#"><i className="fab fa-fort-awesome"><FaCheck /></i></a>

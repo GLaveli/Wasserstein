@@ -6,10 +6,10 @@ function Contacts() {
   <>
    <div class="wrapper row3">
     <section id="team" class="hoc container clear">
-
+{/* 
      <div class="center btmspace-80">
       <h6 class="heading underline font-x2">Contatos</h6>
-     </div>
+     </div> */}
 
      <ul class="nospace group">
       <li class="one_third first">

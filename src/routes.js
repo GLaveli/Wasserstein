@@ -1,5 +1,7 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
+//Go To Top-------------------------------------------------------------------------------
+import GoToTop from './components/GoToTop';
 //complements ----------------------------------------------------------------------------
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -16,6 +18,7 @@ function Routes() {
  return (
   <BrowserRouter>
    <Route path="/" component={Header} />
+    <Route path="/" component={GoToTop} />
    <Switch>
     <Route path="/" exact component={Home} />
     <Route path="/sobre" component={About} />
