@@ -1,4 +1,3 @@
-import {} from '';
 import { Helmet } from 'react-helmet';
 
 import Maps from "../../components/Maps";
