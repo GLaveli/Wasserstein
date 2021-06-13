@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { MessageModal } from '../NewTestimonialMessage/index';
 
 import './styles.css'
@@ -10,35 +11,35 @@ function MenuBar() {
      <nav class="dp-menu">
       <ul>
        <li>
-        <a href="/">Pagina inicial</a>
+        <Link to="/">Pagina inicial</Link>
        </li>
        <li>
-        <a href="/sobre">Sobre</a>
+        <Link to="/sobre">Sobre</Link>
        </li>
        <li>
         <li>
-         <a href="/especialidades"> Especialidades</a>
+         <Link to="/especialidades"> Especialidades</Link>
          <ul className="border">
           <li>
-           <a href="/especialidades#fisiatria">Fisiatria</a>
+           <Link to="/especialidades#fisiatria">Fisiatria</Link>
           </li>
           <li>
-           <a href="/especialidades#acupuntura">Acupuntura</a>
+           <Link to="/especialidades#acupuntura">Acupuntura</Link>
           </li>
           <li>
-           <a href="/especialidades#canabis">Cannabis Medicinal</a>
+           <Link to="/especialidades#canabis">Cannabis Medicinal</Link>
           </li>
           <li>
-           <a href="/especialidades#dores">Dores em geral</a>
+           <Link to="/especialidades#dores">Dores em geral</Link>
           </li>
          </ul>
         </li>
        </li>
        <li>
-        <a href="/convenios">Convênios</a>
+        <Link to="/convenios">Convênios</Link>
        </li>
        <li>
-        <a href="/contato">Contato</a>
+        <Link to="/contato">Contato</Link>
        </li>
        <li>
         <MessageModal />
