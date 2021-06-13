@@ -17,8 +17,8 @@ import p404 from './pages/Page404';
 function Routes() {
  return (
   <BrowserRouter>
-   <Route path="/" component={Header} />
     <Route path="/" component={GoToTop} />
+   <Route path="/" component={Header} />
    <Switch>
     <Route path="/" exact component={Home} />
     <Route path="/sobre" component={About} />
