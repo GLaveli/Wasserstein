@@ -1,4 +1,4 @@
-import Maps from "../../components/Map";
+import Maps from "../../components/Maps";
 import Contacts from "../../components/contacts";
 
 function ContactsPage() {
