@@ -74,6 +74,12 @@ input:checked + .slider::before{
 
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .modal-imput{
  width: 100%;
  padding: 0 1.5rem;

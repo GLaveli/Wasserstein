@@ -8,8 +8,8 @@ function Home() {
   return (
     <>
       <Banner />
-      <BusinessCard reference={"/sobre"} buttonText={"Saiba mais"}/>
-      <Testimonial />
+      <BusinessCard reference={"/sobre"} buttonText={"Saiba mais"} />
+      <Testimonial buttonFlag={true} />
     </>
   )
 }

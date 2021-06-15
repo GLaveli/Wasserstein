@@ -38,7 +38,7 @@ function Header({ handleOpenNewTransactionModal }) {
 
     </header>
    </div>
-   <MenuBar handleOpenNewTransactionModal={handleOpenNewTransactionModal} />
+   <MenuBar />
   </>
  )
 }

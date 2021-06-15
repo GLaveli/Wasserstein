@@ -1,13 +1,31 @@
 import { useEffect, useState } from 'react';
 import api from '../../services/api';
 
-function Testimonial() {
+function Testimonial({ buttonFlag }) {
 
   const [messages, setMessages] = useState([]);
+  const [spaceClass, setSpaceClass] = useState('left-space15');
+
+  function spaceClassCheck() {
+    if (buttonFlag) {
+      setSpaceClass('nospace');
+    } else {
+      setSpaceClass('left-space15');
+    }
+  }
+
 
   useEffect(() => {
+    spaceClassCheck();
+
     async function loadMessages() {
-      const response = await api.get('/testimunials');
+      let response = "";
+
+      if (buttonFlag) {
+        response = await api.get('/testimunials/get3');
+      } else {
+        response = await api.get('/testimunials/getAll');
+      }
 
       setMessages(response.data);
     }
@@ -22,12 +40,12 @@ function Testimonial() {
           <div className="center btmspace-80">
             <h6 className="heading underline font-x2">O que meus pacientes dizem sobre mim</h6>
           </div>
-          <ul className="nospace group btmspace-80">
+          <ul className={`${spaceClass} group btmspace-80`}>
 
             {messages.map((message, i) => (
 
               <>
-                {i === 0 ?
+                {i === 0 & buttonFlag ?
                   <li className='one_third first'>
                     <blockquote>{message.message}</blockquote>
                     <figure className="clear"><img className="circle" src="images/demo/60x60.png" alt="" />
@@ -50,10 +68,10 @@ function Testimonial() {
               </>
             ))}
           </ul>
-          {messages.length < 3 ?
-            null
+          {buttonFlag && messages.length >= 3 ?
+            <footer><a className="btn" href="testimonial">Ver mais comantários &raquo;</a></footer>
             :
-            <footer><a className="btn" href="#">Ver mais comantários &raquo;</a></footer>
+            null
           }
         </section>
       </div>

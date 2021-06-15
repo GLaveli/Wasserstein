@@ -39,6 +39,12 @@ html, body {
  display: none;
 }
 
+.left-space15 {
+ margin-left: 15%;
+ padding: 0;
+ list-style: none;
+}
+
 .nospace {
  margin: 0;
  padding: 0;

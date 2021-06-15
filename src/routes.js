@@ -11,6 +11,7 @@ import About from './pages/About';
 import SpecialtiesPage from './pages/SpecialtiesPage';
 import HealthInsurancePage from './pages/HealthInsurancePage';
 import ContactsPage from './pages/ContactsPage';
+import TestimonialPage from './pages/TestimonialPage';
 //404 ------------------------------------------------------------------------------------
 import p404 from './pages/Page404';
 
@@ -25,6 +26,7 @@ function Routes() {
     <Route path="/especialidades" component={SpecialtiesPage} />
     <Route path="/convenios" component={HealthInsurancePage} />
     <Route path="/contato" component={ContactsPage} />
+    <Route path="/testimonial" component={TestimonialPage} />
     <Route path='/*' component={p404} />
    </Switch>
    <Route path='/' component={Footer} />
