@@ -69,7 +69,7 @@ function Testimonial({ buttonFlag }) {
             ))}
           </ul>
           {buttonFlag && messages.length >= 3 ?
-            <footer><a className="btn" href="testimonial">Ver mais comantários &raquo;</a></footer>
+            <footer><a className="btn" href="testimonial">Ver mais comentários &raquo;</a></footer>
             :
             null
           }
