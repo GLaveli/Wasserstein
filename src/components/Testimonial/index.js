@@ -60,7 +60,7 @@ function Testimonial({ buttonFlag }) {
                     <figure className="clear"><img className="circle" src="images/demo/60x60.png" alt="" />
                       <figcaption>
                         <h6 className="heading">{message.name}</h6>
-                        <em>Paciente</em></figcaption>
+                        <em>{message.type}</em></figcaption>
                     </figure>
                   </li>
                 }

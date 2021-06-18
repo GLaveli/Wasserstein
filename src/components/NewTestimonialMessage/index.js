@@ -45,7 +45,7 @@ function MessageModal() {
     await api.post("message", {
       name,
       message,
-      tipe: changeTitle
+      type: changeTitle
     });
 
     setChangeTitle('Paciente');
@@ -110,9 +110,9 @@ function MessageModal() {
             placeholder={`Digite sua mensagem como ${changeTitle} aqui!`}
             value={message}
             onChange={e => { setMessage(e.target.value) }} required
-            maxlength="200" />
+            maxlength="250" />
 
-          <p className="subText">Maximo de 200 caracteres</p>
+          <p className="subText">Maximo de 250 caracteres</p>
           <input className="modal-imput-code" placeholder="Código"
             value={sendCode} onChange={e => { setSendCode(e.target.value) }} type="number"
             min="0" max="99999" required />
