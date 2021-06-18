@@ -1277,3 +1277,20 @@ table a, #comments a {
 	flex-direction: row;
 	justify-content: space-around;
 }
+
+
+.messageInfo{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 40px;
+}
+
+.messageType{
+	padding-bottom: 10px;
+	font-size: 12px;
+}
+
+.miniDate{
+	font-size: 12px;
+	font-weight: 700;
+}

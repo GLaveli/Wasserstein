@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import { FaCalendar } from 'react-icons/fa';
+
 import api from '../../services/api';
 
 function Testimonial({ buttonFlag }) {
@@ -47,21 +49,43 @@ function Testimonial({ buttonFlag }) {
               <>
                 {i === 0 & buttonFlag ?
                   <li className='one_third first'>
-                    <blockquote>{message.message}</blockquote>
+                    <blockquote>
+                      {message.message}
+                    </blockquote>
                     <figure className="clear"><img className="circle" src="images/demo/60x60.png" alt="" />
                       <figcaption>
                         <h6 className="heading">{message.name}</h6>
-                        <em>Paciente</em></figcaption>
+                        <div className="messageInfo">
+                          <em className="messageType">
+                            {message.type}
+                          </em>
+                          <em className="miniDate">
+                            <FaCalendar /> {message.date}
+                          </em>
+                        </div>
+                      </figcaption>
                     </figure>
+                    <hr />
                   </li>
                   :
                   <li className='one_third'>
-                    <blockquote>{message.message}</blockquote>
+                    <blockquote>
+                      {message.message}
+                    </blockquote>
                     <figure className="clear"><img className="circle" src="images/demo/60x60.png" alt="" />
                       <figcaption>
                         <h6 className="heading">{message.name}</h6>
-                        <em>{message.type}</em></figcaption>
+                        <div className="messageInfo">
+                          <em className="messageType">
+                            {message.type}
+                          </em>
+                          <em className="miniDate">
+                            <FaCalendar /> {message.date}
+                          </em>
+                        </div>
+                      </figcaption>
                     </figure>
+                    <hr />
                   </li>
                 }
 
