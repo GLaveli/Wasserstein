@@ -22,7 +22,7 @@ function Banner() {
       <footer>
        <ul className="nospace inline pushright">
         {/* <li>
-         <a className="btn" href="#">Saiba mais</a>
+         <a className="btn" href="/">Saiba mais</a>
         </li> */}
         {/* <li>
          <a className="btn inverse" href="/convenios">Convênios</a>

@@ -14,9 +14,9 @@ function ContactsPage() {
             <meta name="keyords" content="fisiatria, " />
          </Helmet>
 
-         <div class="wrapper row2 top-spacing40">
-            <div class="center btmspace-40">
-               <h6 class="heading underline font-x2">Contatos</h6>
+         <div className="wrapper row2 top-spacing40">
+            <div className="center btmspace-40">
+               <h6 className="heading underline font-x2">Contatos</h6>
             </div>
          </div>
          <Contacts />

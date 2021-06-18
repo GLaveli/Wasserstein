@@ -779,7 +779,6 @@ td {
 	background-color: #8a3ab9;
 }
 
-
 .faicon-twitter:hover {
 	background-color: #00ACEE;
 }
@@ -960,7 +959,6 @@ input:focus, textarea:focus, *:required:focus {
 	border-color: #256492;
 }
 
-
 #cta .btn:hover {
 	color: inherit;
 	background-color: transparent;
@@ -1126,8 +1124,6 @@ table a, #comments a {
 	background-color: inherit;
 }
 
-
-
 /* Media Queries
 --------------------------------------------------------------------------------------------------------------- */
 
@@ -1163,7 +1159,6 @@ table a, #comments a {
 		margin-top: 0;
 		padding: 30px 0;
 	}
-
 	#mainav form {
 		display: block;
 	}
@@ -1278,19 +1273,29 @@ table a, #comments a {
 	justify-content: space-around;
 }
 
-
-.messageInfo{
+.messageInfo {
 	display: flex;
 	flex-direction: column;
 	padding-bottom: 40px;
 }
 
-.messageType{
+.messageType {
 	padding-bottom: 10px;
 	font-size: 12px;
 }
 
-.miniDate{
+.miniDate {
 	font-size: 12px;
 	font-weight: 700;
+}
+
+.loadingImg {
+	height: 200px;
+	width: 200px;
+}
+
+.flexColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }

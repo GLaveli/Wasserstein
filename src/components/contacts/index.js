@@ -4,44 +4,44 @@ function Contacts() {
 
  return (
   <>
-   <div class="wrapper row3">
-    <section id="team" class="hoc container clear">
+   <div className="wrapper row3">
+    <section id="team" className="hoc container clear">
 {/* 
-     <div class="center btmspace-80">
-      <h6 class="heading underline font-x2">Contatos</h6>
+     <div className="center btmspace-80">
+      <h6 className="heading underline font-x2">Contatos</h6>
      </div> */}
 
-     <ul class="nospace group">
-      <li class="one_third first">
+     <ul className="nospace group">
+      <li className="one_third first">
 
        <article>
         <figure>
          <FaMailBulk />
-         <figcaption class="heading">WhatsApp</figcaption>
+         <figcaption className="heading">WhatsApp</figcaption>
         </figure>
         <br />
         <p>(11) 94515 2685</p>
        </article>
 
       </li>
-      <li class="one_third">
+      <li className="one_third">
 
        <article>
         <figure>
          <FaMailBulk />
-         <figcaption class="heading">Telefone</figcaption>
+         <figcaption className="heading">Telefone</figcaption>
         </figure>
         <br />
         <p>(11) 2729-4304</p>
        </article>
 
       </li>
-      <li class="one_third">
+      <li className="one_third">
 
        <article>
         <figure>
          <FaMailBulk />
-         <figcaption class="heading">Email</figcaption>
+         <figcaption className="heading">Email</figcaption>
         </figure>
         <br />
         <p>clinicar509@gmail.com</p>
@@ -51,8 +51,8 @@ function Contacts() {
 
      </ul>
     </section>
-    <div class="center btmspace-80">
-     <h6 class="heading underline font-x2">Como chegar</h6>
+    <div className="center btmspace-80">
+     <h6 className="heading underline font-x2">Como chegar</h6>
     </div>
    </div>
   </>

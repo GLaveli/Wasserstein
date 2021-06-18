@@ -6,12 +6,12 @@ import careplus from '../../assets/healthInsuranceImages/careplus.png';
 import cassi from '../../assets/healthInsuranceImages/cassi.png';
 import dix from '../../assets/healthInsuranceImages/dix.png';
 import vivest from '../../assets/healthInsuranceImages/vivest.png';
-import gama from '../../assets/healthInsuranceImages/gama.png';
+// import gama from '../../assets/healthInsuranceImages/gama.png';
 import lincx from '../../assets/healthInsuranceImages/lincx.png';
 import medial from '../../assets/healthInsuranceImages/medial.png';
 import omint from '../../assets/healthInsuranceImages/omint.png';
 import one from '../../assets/healthInsuranceImages/one.png';
-import plasac from '../../assets/healthInsuranceImages/plasac.png';
+// import plasac from '../../assets/healthInsuranceImages/plasac.png';
 
 function HealthInsurance() {
  return (
@@ -23,86 +23,86 @@ function HealthInsurance() {
      </div> */}
      <ul className="nospace group">
       <li className="one_third">
-       <article><a href="#"><i className="fab fa-fort-awesome"><FaCheck /></i></a>
+       <article><a href="/"><i className="fab fa-fort-awesome"><FaCheck /></i></a>
 
-        <img src={amilImg} />
-
-       </article>
-      </li>
-      <li className="one_third">
-       <article><a href="#"><i className="fab fa-deviantart"><FaCheck /></i></a>
-
-        <img src={cabesp} />
+        <img src={amilImg} alt="amilImg" />
 
        </article>
       </li>
       <li className="one_third">
-       <article><a href="#"><i className="fab fa-sticker-mule"><FaCheck /></i></a>
+       <article><a href="/"><i className="fab fa-deviantart"><FaCheck /></i></a>
 
-        <img src={careplus} />
-
-       </article>
-      </li>
-      <li className="one_third">
-       <article><a href="#"><i className="fas fa-user-secret"><FaCheck /></i></a>
-
-        <img src={cassi} />
+        <img src={cabesp} alt="cabesp" />
 
        </article>
       </li>
       <li className="one_third">
-       <article><a href="#"><i className="fas fa-quidditch"><FaCheck /></i></a>
+       <article><a href="/"><i className="fab fa-sticker-mule"><FaCheck /></i></a>
 
-        <img src={dix} />
+        <img src={careplus} alt="careplus" />
 
        </article>
       </li>
       <li className="one_third">
-       <article><a href="#"><i className="fas fa-wheelchair"><FaCheck /></i></a>
+       <article><a href="/"><i className="fas fa-user-secret"><FaCheck /></i></a>
 
-        <img src={vivest} />
+        <img src={cassi} alt="cassi" />
+
+       </article>
+      </li>
+      <li className="one_third">
+       <article><a href="/"><i className="fas fa-quidditch"><FaCheck /></i></a>
+
+        <img src={dix} alt="dix" />
+
+       </article>
+      </li>
+      <li className="one_third">
+       <article><a href="/"><i className="fas fa-wheelchair"><FaCheck /></i></a>
+
+        <img src={vivest} alt="vivest" />
 
        </article>
       </li>
       {/* <li className="one_third">
-       <article><a href="#"><i className="fas fa-wheelchair"><FaCheck /></i></a>
+       <article><a href="/"><i className="fas fa-wheelchair"><FaCheck /></i></a>
 
-        <img src={gama} />
+        <img src={gama}  alt=""/>
 
        </article>
       </li> */}
       <li className="one_third">
-       <article><a href="#"><i className="fas fa-wheelchair"><FaCheck /></i></a>
+       <article><a href="/"><i className="fas fa-wheelchair"><FaCheck /></i></a>
 
-        <img src={lincx} />
-
-       </article>
-      </li>
-      <li className="one_third">
-       <article><a href="#"><i className="fas fa-wheelchair"><FaCheck /></i></a>
-
-        <img src={medial} />
+        <img src={lincx} alt="lincx" />
 
        </article>
       </li>
       <li className="one_third">
-       <article><a href="#"><i className="fas fa-wheelchair"><FaCheck /></i></a>
+       <article><a href="/"><i className="fas fa-wheelchair"><FaCheck /></i></a>
 
-        <img src={omint} />
+        <img src={medial} alt="medial" />
 
        </article>
       </li>
       <li className="one_third">
-       <article><a href="#"><i className="fas fa-wheelchair"><FaCheck /></i></a>
+       <article><a href="/"><i className="fas fa-wheelchair"><FaCheck /></i></a>
 
-        <img src={one} />
+        <img src={omint} alt="omint" />
+
+       </article>
+      </li>
+      <li className="one_third">
+       <article><a href="/"><i className="fas fa-wheelchair"><FaCheck /></i></a>
+
+        <img src={one} alt="one" />
 
        </article>
       </li>
       {/* <li className="one_third">
-       <article><a href="#"><i className="fas fa-wheelchair"><FaCheck /></i></a>
+       <article><a href="/"><i className="fas fa-wheelchair"><FaCheck /></i></a>
 
-        <img src={plasac} />
+        <img src={plasac} alt=""/>
 
        </article>
       </li> */}

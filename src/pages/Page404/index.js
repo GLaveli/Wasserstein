@@ -16,9 +16,9 @@ function Page404() {
      <h2>Essa pagina não existe</h2>
      <a href="/">Voltar para o inicio</a>
      <div className="notfound-social">
-      <a href="#"><i className="fa fa-facebook"><FaFacebook /></i></a>
-      <a href="#"><i className="fa fa-facebook"><FaTwitter /></i></a>
-      <a href="#"><i className="fa fa-facebook"><FaInstagram /></i></a>
+      <a href="/"><i className="fa fa-facebook"><FaFacebook /></i></a>
+      <a href="/"><i className="fa fa-facebook"><FaTwitter /></i></a>
+      <a href="/"><i className="fa fa-facebook"><FaInstagram /></i></a>
      </div>
     </div>
    </div>

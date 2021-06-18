@@ -12,13 +12,13 @@ function FooterInfo() {
           </p>
           <ul className="faico clear">
             <li>
-              <a className="faicon-facebook" href="#"><FaFacebook /></a>
+              <a className="faicon-facebook" href="/"><FaFacebook /></a>
             </li>
             <li>
-              <a className="faicon-linkedin" href="#"><FaLinkedin /></a>
+              <a className="faicon-linkedin" href="/"><FaLinkedin /></a>
             </li>
             <li>
-              <a className="faicon-insta" href="#"><FaInstagram /></a>
+              <a className="faicon-insta" href="/"><FaInstagram /></a>
             </li>
           </ul>
         </div>
